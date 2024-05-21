@@ -42,7 +42,7 @@ export const DestinationInfo = styled.div`
             transition: border-color 0.1s ease-in-out;
             border-bottom: 3px solid transparent;
             padding-bottom: 5px;
-            margin-right: 15px;
+            margin-right: 20px;
             
             &:hover {
                 border-color: rgba(255,255,255,0.6);

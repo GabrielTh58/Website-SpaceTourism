@@ -38,6 +38,7 @@ export const CrewInfo = styled.div`
 
 export const AstronautInfo = styled.div`
     margin-right: 20px; 
+    height: 300px;
 
     h3 {
         font-size: 32px;
@@ -66,7 +67,7 @@ export const AstronautInfo = styled.div`
 `;
 
 export const CrewNavigation = styled.nav`
-    margin-top: 100px;
+    margin-top: 80px;
 
     ul {
         display: flex;
@@ -88,6 +89,7 @@ export const CrewNavigation = styled.nav`
 
         &.clicked {
             background-color: #fff;
+            opacity: 1;
         }
     }
 `;

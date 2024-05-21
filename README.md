@@ -20,7 +20,7 @@ Esta é a minha solução para o desafio ["Space Tourism"](https://www.frontendm
 ## Solution
 
 ## Visualização
-O projeto está disponível para visualização [aqui]().
+Deploy: https://space-tourism-react-ten.vercel.app
 
 ## Tecnologias Utilizadas
 - **React**: Biblioteca JavaScript para construção de interfaces de usuário.
