@@ -18,6 +18,7 @@ Esta é a minha solução para o desafio ["Space Tourism"](https://www.frontendm
 - **Estilização com Styled Components**: Utilizei a biblioteca Styled Components para estilizar os componentes.
 
 ## Solution
+![GIF of IP Address Tracker](./src/gif/Gif-Space-tourism.gif)
 
 ## Visualização
 Deploy: https://space-tourism-react-ten.vercel.app
