@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import backgroundHomeTablet from '../../assets/home/background-home-tablet.jpg'
-import { HomeContainer, HomeSection, Info } from './styles'
+import { HomeContainer, HomeSection, Info } from '../../pages/home/styles'
 
 export const TabletHomeContainer = styled(HomeContainer)`
     background-image: url(${backgroundHomeTablet});

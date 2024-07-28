@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import backgroundHomeMobile from '../../assets/home/background-home-mobile.jpg'
 import { TabletHomeContainer } from "./tablet-styles";
-import { HomeSection, Info } from "./styles";
+import { HomeSection, Info } from "../../pages/home/styles";
 
 export const MobileHomeContainer = styled(TabletHomeContainer)`
     background-image: url(${backgroundHomeMobile});

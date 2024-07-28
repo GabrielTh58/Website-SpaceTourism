@@ -4,9 +4,9 @@ import moonImage from '../../assets/destination/image-moon.png';
 import europaImage from '../../assets/destination/image-europa.png';
 import marsImage from '../../assets/destination/image-mars.png';
 import titanImage from '../../assets/destination/image-titan.png';
-import { Menu } from '../Menu';
-import { NavigationList } from '../Navigation-list';
-import { DataDisplay } from '../Data-display';
+import { Menu } from '../../components/Menu';
+import { NavigationList } from '../../components/Navigation-list';
+import { DataDisplay } from '../../components/Data-display';
 import { DestinationContainer as DesktopDestinationSection } from './styles';
 import { TabletDestinationContainer } from './tablet-styles';
 import { MobileDestinationContainer } from './mobile-styles';
@@ -15,7 +15,7 @@ import { DestinationSection, DestinationInfo, DestinationDetails, TravelDetails,
 const destinationImages = [moonImage, europaImage, marsImage, titanImage];
 const altDescriptions = ['Image of the Moon', 'Image of the Mars', 'Image of the Europa', 'Image of the Titan'];
 
-export const DestinationPage = () => {
+export const Destination = () => {
     const [destinationData, setdestinationData] = useState();
     const [currentIndex, setCurrentIndex] = useState(0);
     const [destinationImage, setDestinationImage] = useState();

@@ -1,8 +1,8 @@
 import React, { useEffect, useState, useLayoutEffect } from 'react';
 import data from '../../data.json';
-import { DataDisplay } from "../Data-display"
-import { NavigationList } from "../Navigation-list"
-import { Menu } from "../Menu"
+import { DataDisplay } from "../../components/Data-display"
+import { NavigationList } from "../../components/Navigation-list"
+import { Menu } from "../../components/Menu"
 import launchVehicleImage from '../../assets/technology/image-launch-vehicle-portrait.jpg';
 import spaceCapsuleImage from '../../assets/technology/image-space-capsule-portrait.jpg';
 import spacePortImage from '../../assets/technology//image-spaceport-portrait.jpg';
@@ -15,7 +15,7 @@ import { TechnologyTitle, TechnologySection, TechnologyInfo, TechnologyNavigatio
 const technologyImages = [launchVehicleImage, spacePortImage, spaceCapsuleImage];
 const altDescriptions = ['Launch Vehicle', 'Space Capsule' , 'Space Port'];
 
-export const TechnologyPage = () => {
+export const Technology = () => {
     const [technologyData, setTechnologyData] = useState();
     const [currentIndex, setCurrentIndex] = useState(0);
     const [technologyImage, setTechnologyImage] = useState();

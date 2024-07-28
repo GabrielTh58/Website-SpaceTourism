@@ -1,11 +1,11 @@
 import React, { useState, useLayoutEffect } from 'react';
-import { ButtonExplore } from '../Button-explore';
-import { Menu } from "../Menu/index";
+import { ButtonExplore } from '../../components/Button-explore';
+import { Menu } from "../../components/Menu";
 import { HomeContainer as DesktopHomeContainer, HomeSection, Info } from "./styles";
 import { TabletHomeContainer } from "./tablet-styles";
 import { MobileHomeContainer } from "./mobile-styles";
 
-export const HomePage = () => {
+export const Home = () => {
     const [isTablet, setIsTablet] = useState(false);
     const [isMobile, setIsMobile] = useState(false);
 

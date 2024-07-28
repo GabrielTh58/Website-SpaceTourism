@@ -4,9 +4,9 @@ import douglasHurleyImage from '../../assets/crew/image-douglas-hurley.png';
 import markShuttleworthImage from '../../assets/crew/image-mark-shuttleworth.png';
 import victorGloverImage from '../../assets/crew/image-victor-glover.png';
 import anoushehAnsariImage from '../../assets/crew/image-anousheh-ansari.png';
-import { Menu } from '../Menu';
-import { NavigationList } from '../Navigation-list';
-import { DataDisplay } from '../Data-display';
+import { Menu } from '../../components/Menu';
+import { NavigationList } from '../../components/Navigation-list';
+import { DataDisplay } from '../../components/Data-display';
 import { DesktopCrewContainer } from './desktop-styles';
 import { TabletCrewContainer } from './tablet-styles';
 import { MobileCrewContainer } from './mobile-styles';
@@ -15,7 +15,7 @@ import { CrewTitle, CrewSection, CrewInfo, AstronautInfo, CrewNavigation, Astron
 const astronautImages = [douglasHurleyImage, markShuttleworthImage, victorGloverImage, anoushehAnsariImage];
 const altDescriptions = ['Douglas Hurley Image', 'Mark Shuttleworth Image', 'Victor Glover image', 'Anousheh Ansari image'];
 
-export const CrewPage = () => {
+export const Crew = () => {
     const [crewData, setCrewData] = useState();
     const [currentIndex, setCurrentIndex] = useState(0);
     const [astronautImage, setAstronautImage] = useState();

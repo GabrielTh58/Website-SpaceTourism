@@ -1,6 +1,6 @@
 # Space Tourism React
 
-Esta é a minha solução para o desafio ["Space Tourism"](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3) do Frontend Mentor. O desafio consistia em criar um website multipágina para promover o turismo espacial virtual. Utilizei tecnologias como React, React Router e Styled Components para desenvolver este projeto.
+Esta é a minha solução para o desafio ["Space Tourism"](https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3) do Frontend Mentor. O desafio consiste em criar um website multipágina responsivo, com conteúdo de todas as páginas dinamicamente renderizado a partir de um arquivo JSON. Para desenvolver este projeto, utilizei React, React Router e Styled Components.
 
 ## Menu de Navegação
 
