@@ -17,7 +17,7 @@ Esta é a minha solução para o desafio ["Space Tourism"](https://www.frontendm
 - **Roteamento**: Implementei o roteamento utilizando React Router para uma navegação fluida e eficiente.
 - **Estilização com Styled Components**: Utilizei a biblioteca Styled Components para estilizar os componentes.
 
-## Solution
+## Solução
 ![GIF of IP Address Tracker](./src/gif/Gif-Space-tourism.gif)
 
 ## Visualização
