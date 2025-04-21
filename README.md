@@ -4,7 +4,6 @@ Esta é a minha solução para o desafio ["Space Tourism"](https://www.frontendm
 
 ## Menu de Navegação
 
-- [Funcionalidades](#funcionalidades)
 - [Solution](#solution)
 - [Visualização](#visualização)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
