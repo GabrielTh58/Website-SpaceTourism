@@ -10,13 +10,6 @@ Esta é a minha solução para o desafio ["Space Tourism"](https://www.frontendm
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Autor](#autor)
 
-## Funcionalidades
-- **Design Responsivo**: O layout se adapta automaticamente a diferentes dispositivos, proporcionando uma experiência de usuário consistente em desktops, tablets e smartphones.
-- **Navegação Multiplataforma**: O site inclui múltiplas páginas, como Home, Destinations, Crew e Technology, facilitando a navegação entre diferentes seções.
-- **Componentização**: Componentes React foram utilizados para organizar e reutilizar o código de forma eficiente.
-- **Roteamento**: Implementei o roteamento utilizando React Router para uma navegação fluida e eficiente.
-- **Estilização com Styled Components**: Utilizei a biblioteca Styled Components para estilizar os componentes.
-
 ## Solução
 ![GIF of IP Address Tracker](./src/gif/Gif-Space-tourism.gif)
 
