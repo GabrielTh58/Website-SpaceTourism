@@ -10,7 +10,7 @@ Esta é a minha solução para o desafio ["Space Tourism"](https://www.frontendm
 - [Autor](#autor)
 
 ## Solução
-![GIF of IP Address Tracker](./src/gif/Gif-Space-tourism.gif)
+![GIF of IP Address Tracker](https://github.com/GabrielTh58/Website-SpaceTourism/raw/main/src/gif/Gif-Space-tourism.gif)
 
 ## Visualização
 Deploy: https://space-tourism-react-ten.vercel.app
